@@ -17,5 +17,14 @@ namespace NailApplication
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+
+        void Session_start(object sender, EventArgs e)
+        {
+            Authenticate auth1 = new Authenticate();
+            Session["MyVariable"] = auth1;
+            
+        }
+
+
     }
 }

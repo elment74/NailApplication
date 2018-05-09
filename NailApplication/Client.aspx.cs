@@ -13,9 +13,13 @@ namespace NailApplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
 
-            
+
+            Authenticate tempvar = (Authenticate)Session["MyVariable"];
+            if (tempvar.approved() == false && tempvar.ad() == false)
+            {
+                Response.Redirect("Default.aspx");
+            }
 
 
 

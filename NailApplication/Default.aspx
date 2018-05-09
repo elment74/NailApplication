@@ -10,6 +10,16 @@
             <asp:Button ID="Button3" runat="server" Text="Appointment" OnClick="Button3_Click" />
             <asp:Button ID="Button4" runat="server" Text="Client" OnClick="Button4_Click" />
         </p>
+        <p>
+            &nbsp;</p>
+        <p>
+            Status:
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        </p>
+        <p>
+            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+            <asp:Button ID="Button14" runat="server" OnClick="Button14_Click" Text="Submit" />
+        </p>
         <p>&nbsp;</p>
     </div>
 

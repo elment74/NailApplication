@@ -145,7 +145,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Properties\PublishProfiles\NailApplication20180304105004 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\NirvanaNailApplication - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -192,6 +192,7 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Authenticate.cs" />
     <Compile Include="Client.aspx.cs">
       <DependentUpon>Client.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

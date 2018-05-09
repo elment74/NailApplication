@@ -2,6 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
+    <h2>&nbsp;</h2>
     <h2>Transaction</h2>
     <p>Input information below</p>
     <p>
